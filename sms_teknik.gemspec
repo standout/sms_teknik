@@ -9,9 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Standout AB"]
   spec.email         = ["kontakt@standout.se"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{SMS Gateway client for SMS Teknik}
+  spec.description   = %q{Need to send an SMS with SMS Teknik? Then this is the
+    Gem for you. We only implemented the gateway calls we need for now. But
+    keep in mind that it's open source and you can help us improve the gem and
+    make it more feature complete.}
+  spec.homepage      = "https://github.com/standout/sms_teknik"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
