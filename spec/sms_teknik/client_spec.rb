@@ -10,7 +10,15 @@ describe SmsTeknik::Client do
   end
 
   describe "#deliver" do
-    it "delivers SMS by sending a HTTP request"
+    it "sends a request to the API" do
+      message = SmsTeknik::Message.new(to: "+46700000001", from: "The foos", body: "Hello")
+      client = SmsTeknik::Client.new(id: "Foo", user: "User", pass: "Pass")
+
+      stub_request(:post, "https://api.smsteknik.se/send/xml/?id=Foo&pass=Pass&user=User")
+        .to_return(:status => 200, :body => "8989898")
+
+      expect(client.deliver(message)).to eq(true)
+    end
   end
 
   describe ".endpoint" do

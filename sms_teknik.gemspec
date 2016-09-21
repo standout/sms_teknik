@@ -6,8 +6,8 @@ require 'sms_teknik/version'
 Gem::Specification.new do |spec|
   spec.name          = "sms_teknik"
   spec.version       = SmsTeknik::VERSION
-  spec.authors       = ["Alexander Ross"]
-  spec.email         = ["alex@aross.se"]
+  spec.authors       = ["Standout AB"]
+  spec.email         = ["kontakt@standout.se"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "webmock", "~> 2.1.0"
 end
