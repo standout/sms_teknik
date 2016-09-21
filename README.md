@@ -1,8 +1,8 @@
 # SmsTeknik
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sms_teknik`. To experiment with that code, run `bin/console` for an interactive prompt.
+Need to send an SMS with [SMS Teknik](http://www.smsteknik.se)? Then this is the Gem for you. We only implemented the gateway calls we need for now. But keep in mind that it's open source and you can help us improve the gem and make it more feature complete.
 
-TODO: Delete this and the text above, and describe your gem
+This gem is created by [Standout AB](http://standout.se).
 
 ## Installation
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-You need to contact [SMS Teknik](http://www3.smsteknik.se) to get an account.
+You need to contact [SMS Teknik](http://www.smsteknik.se) to get an account.
 
 ### Send a SMS
 
