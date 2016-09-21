@@ -22,7 +22,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You need to contact [SMS Teknik](http://www3.smsteknik.se) to get an account.
+
+### Send a SMS
+
+```ruby
+id = "Your company ID"
+user = "your user name"
+pass = "your password"
+sender = "FOO"
+client = SmsTeknik::Client.new(id: id, user: user, pass: pass)
+sms = SmsTeknik::Message(from: sender, to: ["+700000000"], body: "Hello, World!")
+
+client.deliver(sms)
+```
 
 ## Development
 

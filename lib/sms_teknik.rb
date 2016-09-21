@@ -1,5 +1,6 @@
 require "sms_teknik/version"
+require "sms_teknik/message"
+require "sms_teknik/client"
 
 module SmsTeknik
-  # Your code goes here...
 end
